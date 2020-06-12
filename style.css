@@ -1,0 +1,70 @@
+body
+{ 
+	margin: 0;
+    border:25px;
+    padding: 0; 
+    background-color: lightblue;
+    background-size: cover;
+    font-family: serif;
+}
+.title
+{ 
+	text-align: center;
+	padding: 50px 0 0 0;
+	font-size: 30px;
+	font-family: courier;
+
+}
+.title h1
+{
+	margin: 20px;
+	padding:10px
+	color:black;
+	text-transform: uppercase;
+	font-size: 30px;
+}
+
+ .container
+{
+	width: 40%;
+	height: 340px;
+	background: #fff;
+	margin: 0 auto; 
+}
+.container .left
+{
+	float: left;
+	width: 50%;
+	height: 340px;
+    background-image: url(http://www.1000springs.org.nz/static/img/icons/login.png);
+    background-size: contain;
+    box-sizing: border-box;
+}
+.container .right
+{
+	float: right;
+	width:40%;
+	height:340px;
+	box-sizing:border-box;
+	font-size: 25px;
+}
+.form
+{ 
+     width: 100%;
+     height: 340px;
+     padding: 80px,50px;
+     box-sizing: border-box;
+     background: #fff;
+
+      }
+      .form .p
+      {
+      	margin:0;
+      	padding: 0;
+      	font-weight: bold;
+      	color: black ;
+      }
+      .input
+      { 
+      	margin-bottom:20px;  
+      }
